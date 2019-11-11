@@ -79,37 +79,48 @@
             android:layout_marginTop="10dp"
 
             android:orientation="horizontal">
+
             <View
-                android:layout_weight="1"
-                android:layout_gravity="center"
                 android:layout_width="match_parent"
-                android:background="@color/colorAccent"
-                android:layout_height="2dp">
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/colorgrabyBold">
 
             </View>
             <TextView
                 android:layout_width="wrap_content"
-                android:text="Hoặc"
+                android:text="Other"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:textColor="@color/colorAccent"
+                android:textColor="@color/colorgrabyBold"
 
                 android:layout_height="wrap_content" />
             <View
                 android:layout_weight="1"
                 android:layout_gravity="center"
                 android:layout_width="match_parent"
-                android:background="@color/colorAccent"
+                android:background="@color/colorgrabyBold"
                 android:layout_height="2dp">
 
             </View>
 
         </LinearLayout>
-       
-
-
-
-
-
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:textColor="@color/colorgrabyBold"
+            android:text="You will not be creating a Facebook profile"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="FORGOT PASSWORD"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp"
+            android:paddingTop="20dp"
+            android:layout_height="wrap_content"/>
     </LinearLayout>
 </RelativeLayout>
